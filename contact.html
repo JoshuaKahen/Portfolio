@@ -27,14 +27,19 @@
         
         <div class ="container" id="">
 
-            <form class="d-flex align-items-center justify-content-around" action="mailto:joshuakahen@hotmail.com">
-                <input id="email-button" type="submit" value="Send me an Email!" />
-            </form>
+            <div class="d-flex align-items-center justify-content-around">
+                 <button id="email-button" onClick=sendEmail()>send me and email!</button>
+            </div>
 
         </div>
         
     </div>
-    
+    <script>
+        function sendEmail() 
+        {
+            window.location = "mailto:joshuakahen@hotmail.com";
+        }
+     </script>
 
 </body>
 </html>
