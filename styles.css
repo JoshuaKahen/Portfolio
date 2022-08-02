@@ -45,6 +45,27 @@
   background-color: #4d0085;
 }
 
+ #email-button {
+  color: white;
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #00707E;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+}
+ #email-button:hover {
+  background-color: #003940;
+}
+ #email-button:focus {
+  background-color: #00ABC6;
+}
+
+
  #top-title {
   animation: fadeIn 2.5s forwards;
  }

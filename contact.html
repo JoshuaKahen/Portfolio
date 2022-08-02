@@ -13,7 +13,7 @@
     <title>Joshua Kahen Portfolio</title>
 </head>
 <body class="class="bg-image" 
-     style="background-image: url('Images/grey-bg.jpg');
+     style="background-image: url('Images/grey-bg.png');
             height: 100vh"">
 
     <div>
@@ -25,23 +25,16 @@
             <h1 id="title" style="font-family: 'Share Tech Mono', monospace;" >Contact Me</h1>
         </header>
         
-        <div class ="container" id="to-the-center">
+        <div class ="container" id="">
 
-            <form action="mail_handler.php" method="post" enctype="text/plain">
-                Name:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="email"><br>
-                Phone Number:<br>
-                <input type="text" name="phone"><br>
-                Comment:<br>
-                <input type="text" name="msg" size=50><br><br>
-                <input type="submit" name="submit" value="Send">
+            <form class="d-flex align-items-center justify-content-around" action="mailto:joshuakahen@hotmail.com">
+                <input id="email-button" type="submit" value="Send me an Email!" />
             </form>
 
         </div>
         
     </div>
+    
 
 </body>
 </html>
